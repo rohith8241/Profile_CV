@@ -1,0 +1,191 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 33%;
+  align-items: center;
+}
+
+.bg-color {
+  background-color: #eaeaea;
+}
+
+.imgSize {
+  width: 90%;
+  height: 90%;
+  border-radius: 30px;
+}
+
+
+.alignItems {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.mainTilte {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.headerText {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.column {
+  display: flex;
+  flex: 50%
+}
+
+.detailsRowArrange {
+  flex-direction: column;
+}
+
+@media screen and (max-width:425px) {
+
+  .column {
+    display: flex;
+    flex: 100%;
+  }
+
+  .alignItems {
+    flex-direction: column;
+    padding-top: 0px;
+  }
+
+  .imgSize {
+    width: 60%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainTilte {
+    font-size: 20px;
+  }
+
+  .imageFit {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .flex-container {
+    flex-direction: column-reverse;
+  }
+
+  .contact {
+    height: auto !important;
+  }
+}
+
+img {
+  box-shadow: 0px 0px 22px 2px #263348;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.centerText {
+  display: flex;
+  justify-content: center;
+  color: #eaeaea;
+}
+
+.homeFont {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: #eaeaea;
+}
+
+.iconList {
+  width: fit-content
+}
+
+.contact {
+  height: 60px;
+  width: 100%;
+  font-family: Zen Dots;
+  // background-color:;
+}
+
+.detailsContact {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 15px;
+  color: #eaeaea;
+}
+
+.mainContact {
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 0px 0px 3px;
+  color: #eaeaea;
+}
+
+.portfolioText {
+  font-family: Zen Dots;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 0px 0px 3px;
+  box-shadow: 0px 0px 20px 2px aliceblue;
+  border-radius: 15px;
+  color: aliceblue;
+}
+
+.iconSize {
+  cursor: pointer;
+  color: #eaeaea;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-5px);
+}
+
+.pb-4 {
+  padding-bottom: 4px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: relative;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+}
+
+.backgroundImg {
+  background-image: url('../../assets/Images/canyon-1740973_960_720\ \(1\).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hr {
+  color: #eaeaea;
+}
+
+.aTag {
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+.aTag:hover {
+  color: darkgrey;
+  cursor: pointer;
+}

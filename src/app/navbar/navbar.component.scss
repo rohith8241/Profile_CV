@@ -1,0 +1,23 @@
+.textColor {
+  color: #ffffff
+}
+
+.active {
+  background-color: #eaeaea;
+  border-radius: 10px;
+}
+
+::ng-deep .mat-dialog-container {
+  padding: 10 !important;
+  border-radius: 32px !important;
+}
+
+.backgroundImg {
+  background-image: url('../../assets/Images/canyon-1740973_960_720\ \(1\).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon{
+    flex-direction: row-reverse;
+}

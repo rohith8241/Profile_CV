@@ -1,0 +1,90 @@
+.bg-color {
+  background-color: #eaeaea;
+  height: fit-content;
+}
+
+.portfolioText {
+  font-family: Zen Dots;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 0px 0px 3px;
+  box-shadow: 0px 0px 20px 2px aliceblue;
+  border-radius: 15px;
+  color: aliceblue;
+}
+
+.flexCenter {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.descriptionFont {
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #eaeaea;
+}
+
+.skillDirection {
+  flex-direction: column;
+}
+
+.subPortfolioText {
+  font-family: Zen Dots;
+  font-weight: 400;
+  font-size: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 22px 2px #eaeaea;
+  color: #eaeaea;
+}
+
+.skillText {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  color: #eaeaea;
+}
+
+.skillText:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+// .epmtyDiv{
+//     height: 120px;
+// }
+
+@media screen and (min-width:1440px) {
+  .epmtyDiv {
+    height: 120px;
+  }
+}
+
+.flexCenter1 {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.skillText1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: medium;
+  color: #eaeaea;
+}
+
+.pl-0 {
+  padding-left: 0px !important;
+}
+
+.skillfit {
+  width: fit-content;
+  height: fit-content;
+}
+
+.backgroundImg {
+  background-image: url('../../../assets/Images/canyon-1740973_960_720\ \(1\).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,46 @@
+.flexCenter {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.imgDiv {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 22px 2px #263348;
+}
+
+.headerText {
+  font-family: zen-dots;
+  font-size: bold;
+  font-weight: 800;
+}
+
+.descriptionFont {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #263348;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width:425px) {
+
+  .descriptionFont {
+    font-size: 12px;
+  }
+
+}
+
+.contentAlign {
+  flex-direction: column;
+}
+
+.mainData {
+  padding-top: 10px;
+}
+
+.fonFamliy {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

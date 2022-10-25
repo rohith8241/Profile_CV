@@ -1,0 +1,49 @@
+.mainTilte {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.descriptionFont {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #263348;
+}
+
+.marginFix {
+  margin: auto;
+}
+
+.mintImageBtn {
+  flex-direction: row-reverse;
+  background-color: #263348;
+  color: white;
+}
+
+.buttonBox {
+  flex-direction: row-reverse;
+}
+
+.header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.homeFont {
+  font-family: fantasy;
+  font-size: large;
+  font-weight: 700;
+}
+
+.iconSize {
+  font-size: 24px;
+  color: #263348;
+  cursor: pointer;
+}
+
+// .iconSize:hover{
+//     cursor: pointer;
+// }

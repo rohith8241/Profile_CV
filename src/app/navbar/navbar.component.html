@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg bg-image backgroundImg" style="background-color:transparent; width:100%;">
+  <div class="container-fluid icon">
+    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link textColor" aria-current="page" routerLink="/home" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link textColor" routerLink="/project" routerLinkActive="active">Projects</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle textColor" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false" routerLinkActive="active">
+            Sections
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="/sections/education">Education</a></li>
+            <li><a class="dropdown-item" routerLink="/sections/skills">Skills & Experience</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" routerLink="/sections/summary">Summary</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div>
+        <button class="btn textColor" (click)="openModal()">Feedback</button>
+      </div>
+    </div>
+  </div>
+</nav>

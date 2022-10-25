@@ -1,0 +1,106 @@
+.bg-color {
+  position: relative;
+  height: 100%;
+  background-color: #eaeaea;
+  overflow-y: auto;
+}
+
+.portfolioText {
+  font-family: Zen Dots;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 0px 0px 3px;
+  box-shadow: 0px 0px 22px 2px aliceblue;
+  border-radius: 15px;
+  color: aliceblue;
+}
+
+.flexCenter {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.size {
+  width: 100%;
+  height: fit-content;
+}
+
+.content {
+  width: 60%;
+}
+
+.thankNote1 {
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: bold;
+  color: lightgray;
+}
+
+
+.epmtyDiv {
+  height: 120px;
+}
+
+
+@media screen and (max-width:425px) {
+  .m-auto {
+    margin: 0px !important;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .epmtyDiv {
+    height: 20px;
+  }
+}
+
+.thankNote2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: lightgrey;
+}
+
+.backgroundImg {
+  background-image: url('../../../assets/Images/canyon-1740973_960_720\ \(1\).jpg');
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  height: 100vh;
+}
+
+.flexcont {
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: #eaeaea;
+}
+
+.imgSize {
+  width: 90%;
+  height: 90%;
+  border-radius: 30px;
+}
+
+.video {
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.flexCenter1 {
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+}
+
+.videoDiv {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 22px 2px aliceblue;
+}

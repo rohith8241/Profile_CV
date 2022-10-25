@@ -1,0 +1,146 @@
+.classDiv{
+    flex: 50%;
+}
+
+.flexDirection{
+    flex-direction: row;
+    display: flex;
+}
+
+.titleCard{
+    font-family: 'Zen Dots';
+    color:#263348;
+    font-weight:700;
+    font-size:32px;
+    margin-right: 10px;
+}
+
+.descriptionFont{
+    font-family: Inter,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:lightgrey;
+    margin-bottom: 8px;
+}
+
+.roleBolded{
+    font-weight: bold;
+}
+
+.roleBolded1{
+    font-weight: bold;
+}
+
+.logo{
+    padding-top:10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flexDirectionCol{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    flex:50%;
+}
+
+.imgScss{
+    width: 250px;
+    height:50px;
+    border-radius:5px;
+    border: 1px solid black;
+}
+.button1:hover{
+    box-shadow:  0px 0px 22px 2px #eaeaea;
+}
+
+.marginTop{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 485px){
+        .classDiv{
+            flex: 100%;
+        }
+        .flexDirectionCol{
+            flex:100%;
+        }
+
+        .column{
+            flex:100%
+        }
+}
+
+.projectTitle{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+@media  screen and (max-width:425px){
+
+    .projectTitle{
+        flex-direction: column;
+        padding-top: 5px;
+    }
+}
+    
+hr.dotted {
+    border-top: 3px dotted #eaeaea;
+  }
+
+  .roleBolded:hover{
+      text-decoration: underline;
+  }
+
+  .mainDescription{
+    color:lightgrey;
+    font-weight:700;
+    font-size:32px;
+    margin-top:20px;
+  }
+
+  .roleDescription{
+    color:lightgrey;
+    font-weight:700;
+    font-size:32px;
+    margin-top:10px;
+  }
+.mainDescription:hover{
+    text-decoration: underline;
+}
+.roleDescription:hover{
+    text-decoration: underline;
+}
+
+.bg-color{
+    background-color: #eaeaea;
+    position: relative;
+}
+
+.btnColor{
+    background-color: #263348 ;
+    color:#eaeaea;
+}
+
+.portfolioText{
+    font-family:Zen Dots;
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 0px 0px 3px;
+    box-shadow: 0px 0px 20px 2px aliceblue;
+    border-radius: 15px;
+    color: aliceblue;
+}
+
+.flexCenter{
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundImg{
+    background-image: url('../../assets/Images/canyon-1740973_960_720\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
