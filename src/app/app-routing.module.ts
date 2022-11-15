@@ -9,7 +9,7 @@ const approute: Routes = [
   {path:'', redirectTo:'home', pathMatch:'full'},
   {path:'project', component: ProjectsComponent},
   {path:'sections',
-  loadChildren: () => import('../app/sections/sections.module').then(m => m.SectionsModule)
+  loadChildren: () => import('./sections/sections.module').then(m => m.SectionsModule)
 },
 {path: '**', component: PagenotfoundComponent}
 ];
