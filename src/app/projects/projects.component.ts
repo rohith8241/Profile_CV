@@ -14,12 +14,4 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  openIIA(){
-  window.open("https://www.interviewia.com/")
-  }
-
-  openTrustyX(){
-    window.open("https://trustyx.in/")
-  }
-
 }
